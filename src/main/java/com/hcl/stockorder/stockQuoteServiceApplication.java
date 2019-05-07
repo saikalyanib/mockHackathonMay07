@@ -1,13 +1,13 @@
-package com.hcl.Testservice;
+package com.hcl.stockorder;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class TestServiceApplication {
+public class stockQuoteServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(TestServiceApplication.class, args);
+		SpringApplication.run(stockQuoteServiceApplication.class, args);
 	}
 
 }
